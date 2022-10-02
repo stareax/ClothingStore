@@ -18,6 +18,8 @@ public class App {
         System.out.println(hm.suitHuman(dima, clothes).toString());
         System.out.println(hm.suitHuman(tanya, clothes).toString());
 
+        PersonFactory personFactory = new PersonFactory();
+        personFactory.getPerson();
 
     }
 }
